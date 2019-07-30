@@ -1,2 +1,12 @@
 print "hello" + " boi";
 print (3+4)/2;
+
+var a = 3;
+
+a = a * 3;
+
+var b = a + 1;
+
+
+
+print b;
