@@ -7,6 +7,17 @@ a = a * 3;
 
 var b = a + 1;
 
+{
+    var b = a + 2;
+    print b;
+
+}
+
+var c = 1;
+{
+    var c = c + 2;
+    print c;
+}
 
 
 print b;
