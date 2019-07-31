@@ -19,5 +19,6 @@ var c = 1;
     print c;
 }
 
+print "what" or "nat";
 
 print b;
