@@ -17,4 +17,17 @@ print BigBoss;
 
 var bb = BigBoss();
 
-print bb;
+fun getIt () {
+    var bb = BigBoss();
+    bb.some = 98;
+
+    fun what () {
+        return bb.some;
+    }
+
+    return what;
+}
+var bb2 = BigBoss();
+
+print getIt()();
+// print bb.what;
