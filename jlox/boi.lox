@@ -6,3 +6,15 @@ var a = "some";
 
     print a;
 }
+
+class BigBoss {
+    wassup() {
+        return 5;
+    }
+}
+
+print BigBoss;
+
+var bb = BigBoss();
+
+print bb;
