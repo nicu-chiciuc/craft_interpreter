@@ -30,13 +30,16 @@ fun getIt () {
 var bb2 = BigBoss();
 
 class Becon {
+    init() {
+        this.fuck = "fuck that";
+    }
     frick() {
         print this.boi();
 
     }
 
     boi() {
-        return 34;
+        return this.fuck;
     }
 }
 
