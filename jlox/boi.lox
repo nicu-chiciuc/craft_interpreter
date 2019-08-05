@@ -1,40 +1,9 @@
-var a = "some";
-
-{
-    var b = a;
-    var a = b;
-
-    print a;
-}
-
-class BigBoss {
-    wassup() {
-        return 5;
-    }
-}
-
-print BigBoss;
-
-var bb = BigBoss();
-
-fun getIt () {
-    var bb = BigBoss();
-    bb.some = 98;
-
-    fun what () {
-        return bb.some;
-    }
-
-    return what;
-}
-var bb2 = BigBoss();
-
 class Becon {
     init() {
         this.fuck = "fuck that";
     }
     frick() {
-        print this.boi();
+        //print this.boi();
 
     }
 
@@ -43,8 +12,14 @@ class Becon {
     }
 }
 
-class Meat < Becon { }
+class Meat < Becon {
+    boi() {
+        var what = super.boi();
+        return what + " boi";
+    }
+}
 
-print Meat().frick();
-print getIt()();
+ Meat().boi();
+ 4;
+// print getIt()();
 // print bb.what;
