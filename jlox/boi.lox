@@ -43,6 +43,8 @@ class Becon {
     }
 }
 
-print Becon().frick();
+class Meat < Becon { }
+
+print Meat().frick();
 print getIt()();
 // print bb.what;
