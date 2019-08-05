@@ -31,7 +31,12 @@ var bb2 = BigBoss();
 
 class Becon {
     frick() {
-        print "becon becon";
+        print this.boi();
+
+    }
+
+    boi() {
+        return 34;
     }
 }
 
