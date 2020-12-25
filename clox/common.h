@@ -5,4 +5,7 @@
 #include <stddef.h>
 #include <stdint.h>
 
+// Should show tracing info when defined
+#define DEBUG_TRACE_EXECUTION
+
 #endif
