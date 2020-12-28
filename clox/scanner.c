@@ -80,7 +80,7 @@ static char peekNext() {
 }
 
 static bool isAlpha(char c) {
-  return (c >= 'a' && c <= 'z') || (c >= 'A' && c <= 'Z') || '_';
+  return (c >= 'a' && c <= 'z') || (c >= 'A' && c <= 'Z') || (c == '_');
 }
 
 static bool isDigit(char c) {
@@ -174,6 +174,8 @@ static TokenType identifierType() {
     case 'v': return checkKeyword(1, 2, "ar", TOKEN_VAR);
     case 'w': return checkKeyword(1, 4, "hile", TOKEN_WHILE);
   }
+
+  return TOKEN_IDENTIFIER;
 }
 
 static Token identifier() {
