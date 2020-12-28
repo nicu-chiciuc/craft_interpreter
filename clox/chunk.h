@@ -28,7 +28,7 @@ void initChunk(Chunk* chunk);
 void writeChunk(Chunk* chunk, uint8_t byte, int line);
 // We ought to use writeConstant instead of managing constant ourselves
 // For now at least
-/* int addConstant(Chunk* chunk, Value value); */
+int addConstant(Chunk* chunk, Value value);
 void writeConstant(Chunk* chunk, Value value, int line);
 void freeChunk(Chunk* chunk);
 
